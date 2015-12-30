@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000340F61BEAC7C300848EF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000340F51BEAC7C300848EF4 /* AppDelegate.swift */; };
+		000340F81BEAC7C300848EF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000340F71BEAC7C300848EF4 /* ViewController.swift */; };
+		000340FB1BEAC7C300848EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000340F91BEAC7C300848EF4 /* Main.storyboard */; };
+		000340FD1BEAC7C300848EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000340FC1BEAC7C300848EF4 /* Assets.xcassets */; };
+		000341001BEAC7C300848EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000340FE1BEAC7C300848EF4 /* LaunchScreen.storyboard */; };
+		000341081BEAC82900848EF4 /* 21 Boss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 000341071BEAC82900848EF4 /* 21 Boss.mp3 */; };
+		0003410A1BEAC83400848EF4 /* Mega_Man_01_psd_jpgcopy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 000341091BEAC83400848EF4 /* Mega_Man_01_psd_jpgcopy.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000340F21BEAC7C300848EF4 /* RockTheBossMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockTheBossMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000340F51BEAC7C300848EF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000340F71BEAC7C300848EF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		000340FA1BEAC7C300848EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000340FC1BEAC7C300848EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000340FF1BEAC7C300848EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000341011BEAC7C300848EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000341071BEAC82900848EF4 /* 21 Boss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "21 Boss.mp3"; sourceTree = "<group>"; };
+		000341091BEAC83400848EF4 /* Mega_Man_01_psd_jpgcopy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mega_Man_01_psd_jpgcopy.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000340EF1BEAC7C300848EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000340E91BEAC7C300848EF4 = {
+			isa = PBXGroup;
+			children = (
+				000340F41BEAC7C300848EF4 /* RockTheBossMusic */,
+				000340F31BEAC7C300848EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000340F31BEAC7C300848EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000340F21BEAC7C300848EF4 /* RockTheBossMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000340F41BEAC7C300848EF4 /* RockTheBossMusic */ = {
+			isa = PBXGroup;
+			children = (
+				000340F51BEAC7C300848EF4 /* AppDelegate.swift */,
+				000340F71BEAC7C300848EF4 /* ViewController.swift */,
+				000341071BEAC82900848EF4 /* 21 Boss.mp3 */,
+				000341091BEAC83400848EF4 /* Mega_Man_01_psd_jpgcopy.jpg */,
+				000340F91BEAC7C300848EF4 /* Main.storyboard */,
+				000340FC1BEAC7C300848EF4 /* Assets.xcassets */,
+				000340FE1BEAC7C300848EF4 /* LaunchScreen.storyboard */,
+				000341011BEAC7C300848EF4 /* Info.plist */,
+			);
+			path = RockTheBossMusic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000340F11BEAC7C300848EF4 /* RockTheBossMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000341041BEAC7C300848EF4 /* Build configuration list for PBXNativeTarget "RockTheBossMusic" */;
+			buildPhases = (
+				000340EE1BEAC7C300848EF4 /* Sources */,
+				000340EF1BEAC7C300848EF4 /* Frameworks */,
+				000340F01BEAC7C300848EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockTheBossMusic;
+			productName = RockTheBossMusic;
+			productReference = 000340F21BEAC7C300848EF4 /* RockTheBossMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000340EA1BEAC7C300848EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = HardSoft;
+				TargetAttributes = {
+					000340F11BEAC7C300848EF4 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C829Y33F33;
+					};
+				};
+			};
+			buildConfigurationList = 000340ED1BEAC7C300848EF4 /* Build configuration list for PBXProject "RockTheBossMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000340E91BEAC7C300848EF4;
+			productRefGroup = 000340F31BEAC7C300848EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000340F11BEAC7C300848EF4 /* RockTheBossMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000340F01BEAC7C300848EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000341001BEAC7C300848EF4 /* LaunchScreen.storyboard in Resources */,
+				000340FD1BEAC7C300848EF4 /* Assets.xcassets in Resources */,
+				000340FB1BEAC7C300848EF4 /* Main.storyboard in Resources */,
+				0003410A1BEAC83400848EF4 /* Mega_Man_01_psd_jpgcopy.jpg in Resources */,
+				000341081BEAC82900848EF4 /* 21 Boss.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000340EE1BEAC7C300848EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000340F81BEAC7C300848EF4 /* ViewController.swift in Sources */,
+				000340F61BEAC7C300848EF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		000340F91BEAC7C300848EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000340FA1BEAC7C300848EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000340FE1BEAC7C300848EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000340FF1BEAC7C300848EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000341021BEAC7C300848EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000341031BEAC7C300848EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000341051BEAC7C300848EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockTheBossMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hardsoft.RockTheBossMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		000341061BEAC7C300848EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockTheBossMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hardsoft.RockTheBossMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000340ED1BEAC7C300848EF4 /* Build configuration list for PBXProject "RockTheBossMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000341021BEAC7C300848EF4 /* Debug */,
+				000341031BEAC7C300848EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000341041BEAC7C300848EF4 /* Build configuration list for PBXNativeTarget "RockTheBossMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000341051BEAC7C300848EF4 /* Debug */,
+				000341061BEAC7C300848EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000340EA1BEAC7C300848EF4 /* Project object */;
+}

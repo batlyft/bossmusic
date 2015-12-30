@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rockman Boss Music-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Rockman Boss Music" modalTransitionStyle="crossDissolve" id="BYZ-38-t0r" customClass="ViewController" customModule="RockTheBossMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FgU-9K-f1k">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="SPj-aq-rtM"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Rockman Boss Music" id="hpO-a3-GFY">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="JoN-M3-hm7">
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="KV0-zL-Xik"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fw1-Hj-Xld">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gTZ-uj-UG3"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="YaL-kc-az0">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="Fwe-Gn-GdD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Kzv-ZR-dsc"/>
+                                    <barButtonItem systemItem="stop" id="g7l-tG-fnX">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="6uF-On-Ux9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mega_Man_01_psd_jpgcopy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zd5-oj-1vw">
+                                <rect key="frame" x="150" y="175" width="301" height="249"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" id="622-JL-gT7"/>
+                                    <constraint firstAttribute="height" constant="249" id="Nc9-da-v52"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Cz-WU-0HN">
+                                <rect key="frame" x="148" y="432" width="305" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="301" id="9BW-h5-evL"/>
+                                    <constraint firstAttribute="height" constant="30" id="ET2-Og-IbA"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="scrub:" destination="BYZ-38-t0r" eventType="valueChanged" id="jve-TL-zlK"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Msw-P3-5Bx">
+                                <rect key="frame" x="148" y="137" width="305" height="31"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UPP-he-hyz"/>
+                                    <constraint firstAttribute="width" constant="301" id="wnq-kb-3R5"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="adjustVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="kEd-R1-YFc"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Msw-P3-5Bx" firstAttribute="top" secondItem="FgU-9K-f1k" secondAttribute="bottom" constant="73" id="2gE-rl-NmF"/>
+                            <constraint firstItem="zd5-oj-1vw" firstAttribute="top" secondItem="Msw-P3-5Bx" secondAttribute="bottom" constant="8" id="3Tn-YT-MvV"/>
+                            <constraint firstItem="FgU-9K-f1k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="CAn-es-tGl"/>
+                            <constraint firstItem="0Cz-WU-0HN" firstAttribute="top" secondItem="zd5-oj-1vw" secondAttribute="bottom" constant="8" id="FRI-ML-mza"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fw1-Hj-Xld" secondAttribute="bottom" id="Gq6-tr-DQf"/>
+                            <constraint firstItem="FgU-9K-f1k" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Hdw-Xj-go1"/>
+                            <constraint firstItem="zd5-oj-1vw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LRj-zk-p3r"/>
+                            <constraint firstItem="0Cz-WU-0HN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Nlw-tt-eV0"/>
+                            <constraint firstItem="fw1-Hj-Xld" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="cCg-ve-me1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FgU-9K-f1k" secondAttribute="trailing" constant="-20" id="ltc-wE-GTP"/>
+                            <constraint firstItem="Msw-P3-5Bx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="puk-tz-rwa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fw1-Hj-Xld" secondAttribute="trailing" constant="-20" id="reN-LT-neJ"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="scrubSlider" destination="0Cz-WU-0HN" id="wg5-29-skf"/>
+                        <outlet property="volumeSlider" destination="Msw-P3-5Bx" id="4El-yI-2UT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="359"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Mega_Man_01_psd_jpgcopy.jpg" width="3032" height="3056"/>
+    </resources>
+</document>
